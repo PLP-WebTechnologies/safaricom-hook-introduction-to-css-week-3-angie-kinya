@@ -1,0 +1,22 @@
+/* External CSS */
+body {
+    background-color: #f4f4f4; 
+}
+
+.card {
+    background-color: #ffffff; 
+    border: 1px solid #ccc; 
+    padding: 20px;
+    margin: 20px; 
+    border-radius: 5px; 
+}
+
+.link {
+    color: #007bff;
+    text-decoration: none; 
+}
+
+.link:hover {
+    color: #0056b3; 
+    text-decoration: underline; 
+}

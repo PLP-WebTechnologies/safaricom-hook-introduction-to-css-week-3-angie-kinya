@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastering CSS Basics</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS -->
+    <style>
+        /* Internal CSS */
+        h1 {
+            font-size: 2.5em; /* Change font size of all headings */
+        }
+        h2 {
+            color: #333; /* Change text color of all h2 elements */
+        }
+        p {
+            font-family: Georgia, 'Times New Roman', Times, serif; 
+            text-align: justify; 
+        }
+        .highlight {
+            background-color: #f0f8ff; 
+        }
+    </style>
+</head>
+<body style="background-color: #eaeaea;"> <!-- Inline CSS to change background color -->
+
+    <h1>Welcome to My First Web Page</h1>
+    <div id="unique-section" style="border: 2px solid #333; padding: 10px;"> <!-- Inline CSS for border -->
+        <h2>About This Page</h2>
+        <p>This is a simple web page created to demonstrate the basics of CSS styling. It includes various elements styled using different methods.</p>
+    </div>
+
+    <div class="highlight">
+        <h2>Highlighted Section</h2>
+        <p>This section has a special background color applied using a class selector.</p>
+    </div>
+
+    <div class="card">
+        <h3>Card Title</h3>
+        <p>This is a description inside a card component. It has padding inside and margin around it.</p>
+    </div>
+
+    <a href="#" class="link">Hover over this link</a>
+
+</body>
+</html>
